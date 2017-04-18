@@ -9,7 +9,8 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int i = 17;
+    printf("i stores its value at %p\n", &i);
+    printf("this function starts at %p\n", main);
     return 0;
 }
